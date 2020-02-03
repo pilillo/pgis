@@ -5,8 +5,8 @@ ARG DEBIAN_FRONTEND=noninteractive
 ARG PG_VERSION=$PG_VERSION
 ARG MAPFILE="http://download.geofabrik.de/europe/italy-latest.osm.pbf"
 
-ARG PGUSER=docker
-ARG PGPASS=docker
+ARG PGUSER=pgis_user
+ARG PGPASS=pgis_pwd
 ARG PGDB=pgis
 
 ENV POSTGRES_USER=$PGUSER
